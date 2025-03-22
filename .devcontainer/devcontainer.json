@@ -1,0 +1,9 @@
+{
+  "name": "Light Node Dev",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/go:1": {},
+    "ghcr.io/devcontainers/features/rust:1": {}
+  },
+  "postCreateCommand": "sudo apt update && sudo apt install -y curl build-essential"
+}
